@@ -1,0 +1,72 @@
+*{ /*Tirando a margem e a borda para mudar manualmente*/
+    margin: 0%;
+    padding: 0%;
+}
+
+.titulo{
+    color: rgb(243, 32, 32);
+    font-size: 48px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-transform: uppercase;
+    padding-left: 15px;
+    padding-top: 20px;
+}
+
+header{
+    height: 60px;
+}
+
+body{ /* Queria escurecer o background */
+    background-image: url(https://assets.nflxext.com/ffe/siteui/vlv3/862cc171-8df5-418c-886f-2aaf767ae159/4ad43b3f-0afb-44fb-87af-b17cad5d6fb6/BR-pt-20230130-popsignuptwoweeks-perspective_alpha_website_medium.jpg);
+}
+
+#fundo-login{
+    background-color: rgba(0, 0, 0, 0.938);
+    margin-top: 55px;
+    margin-left: 33%;
+    margin-right: 33%;
+    height: 480px;
+    border-radius: 10px;
+}
+
+#fundo-login h2{
+    color: rgb(255, 255, 255);
+    font-size: 36px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: lighter;
+    padding-left: 15%;
+    padding-top: 60px;
+}
+
+.fundo-email{
+    background-color: rgb(43, 41, 41);
+    margin-top: 25px;
+    margin-left: 15%;
+    margin-right: 15%;
+    width: 280px;
+    height: 40px;
+}
+#container-botao{
+    padding-top: 25px;
+    margin-top: 25px;
+    margin-left: 15%;
+    margin-right: 15%;
+    
+}
+#container-botao #botao{
+    background-color: red;
+    width: 285px;
+    height: 40px;
+    color: rgb(255, 255, 255);
+    font-size: 17.5px;
+}
+
+#p-container{
+    display: inline-block;
+}
+#p-container #p-2{
+    padding-left: 160px;
+}
+#p-container .p-login{
+    color: wheat;
+}
