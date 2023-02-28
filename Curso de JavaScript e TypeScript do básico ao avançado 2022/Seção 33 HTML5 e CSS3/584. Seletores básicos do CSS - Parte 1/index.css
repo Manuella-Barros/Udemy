@@ -1,0 +1,8 @@
+div {
+    margin: 20px;
+    color: initial;
+}
+
+.pai > .pai.filha {
+    color: red;
+}
