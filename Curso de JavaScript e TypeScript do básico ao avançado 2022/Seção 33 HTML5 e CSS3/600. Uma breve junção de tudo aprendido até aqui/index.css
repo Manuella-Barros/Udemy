@@ -1,0 +1,49 @@
+*{
+    margin: 0px;
+}
+
+#menu{
+    position: sticky;
+    background-color: white;
+    width: 100vw;
+    height: 75px;
+    top: 0;
+}
+#menu p{
+    display: inline;
+    padding-right: 40px;
+    color: black;
+    font-size: 25px;
+}
+#menu a{
+    text-decoration: none;
+}
+.menu-conteudo{
+    padding-top: 25px;
+    text-align: center;
+}
+#card-1{
+    width: 100vw;
+    height: 100vh;
+    background-color: red;
+}
+#card-2{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(255, 166, 0);
+}
+#card-3{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(255, 238, 0);
+}
+#card-4{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(102, 255, 0);
+}
+#card-5{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(0, 255, 128);
+}
