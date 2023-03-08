@@ -1,0 +1,22 @@
+/*Não termi*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font: sans-serif;
+    font-size: 40px;
+}
+
+.container {
+    max-width: 1200px;
+}
+
+.grid {
+    display: grid;
+    grid-template-rows: 50px 1fr 50px;
+    grid-template-columns: 200px 1fr;
+    margin: 0 auto;
+}
