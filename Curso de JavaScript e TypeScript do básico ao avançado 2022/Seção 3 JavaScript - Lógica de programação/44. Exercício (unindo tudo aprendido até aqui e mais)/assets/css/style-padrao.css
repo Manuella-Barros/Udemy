@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+:root { /* criando variavel global */
+    --primary-color: rgb(118, 118, 255); /* o -- cria a variavel*/
+    --primary-color-darker: rgb(88, 88, 182); 
+}
+
+* {
+    box-sizing: border-box; /* faz o conteudo de ajustar a div */
+    outline: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--primary-color); /* usando a variavel */
+    font-family: 'open sans';
+    font-size: 1.3em; /*Relative to the font-size of the element (2em means 2 times the size of the current font)*/
+    line-height: 1.5em;
+}
+
+.container {
+    max-width: 640px; /* só da pra centralizar se colocar um maximo pra largura*/
+    margin: 50px auto;  /* centraliza */
+    background-color: white;
+    padding: 20px;
+
+}
+
+/* MODELO PRO FORM */
+form input, form label, form button{
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+form input {
+    font-size: 24px;
+    height: 50px;
+    padding: 0px 20px;
+}
+form input:focus {
+    outline: 1px solid var(--primary-color);
+}
+form button {
+    border: none;
+    background: var(--primary-color);
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    height: 50px;
+    cursor: pointer;
+}
+form button:hover {
+    background-color: var(--primary-color-darker);
+}

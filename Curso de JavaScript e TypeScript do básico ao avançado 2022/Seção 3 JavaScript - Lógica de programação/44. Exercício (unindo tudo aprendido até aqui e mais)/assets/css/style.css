@@ -1,0 +1,16 @@
+/* .div-titulo {
+    background-color: red;
+    width: 49.5%;
+    display: inline-block;
+} */
+
+.div-principal {
+    display: grid;
+    grid-template-columns: 50% 100%;
+}
+
+/* #res-imc {
+    background-color: rgb(105, 238, 105);
+    height: 45px;
+    padding: 5px 20px;
+} */
