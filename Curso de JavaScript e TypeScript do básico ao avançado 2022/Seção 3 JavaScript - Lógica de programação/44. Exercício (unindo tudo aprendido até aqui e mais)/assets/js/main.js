@@ -41,3 +41,4 @@ function imprimeTela(imc){
 
     form.reset(); // Limpa o input
 }
+
