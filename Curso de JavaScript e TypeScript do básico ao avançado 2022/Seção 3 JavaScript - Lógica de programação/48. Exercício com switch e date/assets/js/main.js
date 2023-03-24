@@ -1,15 +1,14 @@
 document.addEventListener("DOMContentLoaded", function (e) { // Ao carregar a pagina
     e.preventDefault();
-    var data = new Date(2022, 01, 09, 12, 07);
+    var data = new Date();
     var diaDaSemanaNum = data.getDay();
     var diaDaSemana = semanaNome(diaDaSemanaNum); //Função q da o nome do dia
-    var dia = data.getDate();
+    var dia = zeroEsquerda(data.getDate());
     var mesNum = data.getMonth();
     var mes = mesNome(mesNum); // Função 1 da o nome do mes
     var ano = data.getFullYear();
-    var hora = data.getHours();
-    var min = data.getMinutes();
-    zeroEsquerda (min);
+    var hora = zeroEsquerda(data.getHours());
+    var min = zeroEsquerda(data.getMinutes()); // pega p min e manda pra função zeroEsquerda
 
     imprimeData(diaDaSemana, dia, mes, ano, hora, min);
 })
@@ -81,7 +80,7 @@ function mesNome (mesNum) {
     }
 }
 
-function zeroEsquerda (num) {
+function zeroEsquerda (num) { // Função que resolve os 0 na esquerda
     return num >= 10 ? num : `0${num}`;
 }
 
