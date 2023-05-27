@@ -1,18 +1,14 @@
-let container = document.querySelector('.container');
-
-let elementos = [
-    {tag: 'p', texto: 'Frase 1'},
-    {tag: 'div', texto: 'Frase 2'},
-    {tag: 'footer', texto: 'Frase 3'},
-    {tag: 'section', texto: 'Frase 4'},
+//Criar uma array de objetos com nomes de tags e texto e adicione na pag inicial
+const container = document.querySelector(".container");
+const paragrafos = [
+    {tag: "h1", texto: "Texto 1"},
+    {tag: "h2", texto: "Texto 2"},
+    {tag: "p", texto: "Texto 3"},
 ]
 
-let [p, div, footer, section] = elementos;
-console.log(p.texto);
-console.log(div);
-console.log(footer);
-console.log(section);
-
-const para = document.createElement("p");
-para.innerHTML = "This is a paragraph.";
-document.document.querySelector('.container').appendChild(para);
+for(var i = 0; i < paragrafos.length; i++){
+    var {tag, texto} = paragrafos[i];
+    var tagCriada = document.createElement(tag);
+    tagCriada.innerText += texto;
+    container.appendChild(tagCriada);
+}
